@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  align-items: center;
+   margin: 40px 100px 0px; 
+}
+.nav {
+  display: flex;
+   justify-content: space-between; 
+}
+.nav-title {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu a, i {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  margin-left: 34px;
+}
+/* product section */
+.product {
+  display: flex;
+  gap: 133px;
+}
+.product-info {
+  width: 582px;
+  height: 270px;
+  margin-top: 145px;
+}
+.product-title {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 52px;
+}
+.description {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 16px;
+}
+.p-icon {
+  background-color: #e02c6d;
+  border-radius: 41px;
+  width: 196px;
+  margin-top: 16px;
+}
+
+.p-icon p,
+.fa-solid.icon{
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+.product i {
+  margin: 0;
+}
+.camera {
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 414px;
+  margin-top: 80px;
+}
+
